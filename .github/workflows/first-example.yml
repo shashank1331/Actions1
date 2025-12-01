@@ -1,7 +1,7 @@
-name : My First Workflow
-on : push
+name: My First Workflow
+on: push
 
-jobs :
+jobs:
       first_job:
           runs-on: ubuntu-latest
           steps: 
@@ -11,8 +11,8 @@ jobs :
           - name: List Files
             run: ls 
 
-          - name : Read Files
-            run : cat README.md
+          - name: Read Files
+            run: cat README.md
            
             
             
